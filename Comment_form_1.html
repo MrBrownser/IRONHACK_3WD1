@@ -2,33 +2,69 @@
 <html lang="en">
 	<head>
 		<meta charse="UTF-8">
-		<title> Login to your account </title>
+		<title> Some newspaper - Some article </title>
 	</head>
 	<body>
-		<form>
-		  <fieldset>
-		    <legend>Put your credentials here please</legend>
-		    
-		    <div class="text">
-		      <label for="text" >Text field</label>
-		      <input type="text" name="text" id="text" placeholder="Put your username / e-mail">
-		    </div>
-		    
-		    <div class="text">
-		      <label for="text" >Password field</label>
-		      <input type="password" name="text" id="text" placeholder="Type your password">
-		    </div>
-		    
-			  <div>
-			    <label for="remember-me">
-			      <input type="checkbox" name="remember-me" id="remember-me">
-			      Remember my credentials
-			    </label>
-			  </div>
-		      
-		    <input type="submit" value="Log in">
-		   </fieldset>
-		</form>
+    <div class="article-container">
+      <h1> Article title </h1>
+      <h2> Article subtitle </h2>
+      <h3> <a href="http://www.twitter.com/articleauthor"> Article author </a> </h3>
+      <h4> Article date </h4>
+      <p> This is the article. This is the article. This is the article. This is the article. 
+          This is the article. This is the article. This is the article. This is the article. 
+          This is the article. This is the article. This is the article. This is the article. 
+          This is the article. This is the article. This is the article. This is the article. 
+          This is the article. This is the article. This is the article. This is the article. 
+          This is the article. This is the article. This is the article. This is the article. 
+          <ul>
+            <li> Some element on the list </li>
+            <li> Another element on the list </li>
+            <li> The last element on the list </li>
+          </ul>
+          This is the article. This is the article. This is the article. This is the article. 
+          This is the article. This is the article. This is the article. This is the article. 
+          This is the article. This is the article. This is the article. This is the article. 
+          This is the article. This is the article. This is the article. This is the article. 
+          This is the article. This is the article. This is the article. This is the article. 
+      </p>
+      <img src='http://imagizer.imageshack.us/v2/150x100q90/66/muffinpunkyk2.png' border='0' >
+    </div>
+    <div class="content-container">
+  		<form>
+  		  <fieldset>
+  		    <legend>Add your comments</legend>
+  		    
+  		    <div class="text">
+  		      <label for="text" >Name</label>
+  		      <input type="text" name="text" id="text" placeholder="Put your name">
+  		    </div>
+  		    
+          <div class="text">
+            <label for="text" >email</label>
+            <input type="text" name="text" id="text" placeholder="Put your e-mail">
+          </div>
+
+          <div class="textarea">
+            <label for=”textarea”>Comment</label>
+            <textarea name=”textarea” id=”textarea” placeholder="Put your comment here!"></textarea>
+          </div>
+
+  		    <div class="text">
+  		      <label for="text" >Password field</label>
+  		      <input type="password" name="text" id="text" placeholder="Type your password">
+  		    </div>
+  		    
+  			  <div>
+  			    <label for="remember-me">
+  			      <input type="checkbox" name="remember-me" id="remember-me">
+  			      Remember my credentials
+  			    </label>
+  			  </div>
+
+  		    <input type="submit" value="Log in">
+  		   </fieldset>
+  		</form>
+    </div>
   </fieldset>
 	</body>
 </html>
